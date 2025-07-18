@@ -1,0 +1,5 @@
+# compilador bytecode
+__pycache__/
+
+# base de datos
+data/grdconectados.db
