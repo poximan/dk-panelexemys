@@ -111,4 +111,4 @@ if __name__ == '__main__':
         logger_app.log("Es el proceso del reloader. La inicializacion de la BD y los observadores se omiten.", origen="APP")
     
     logger_app.log("Iniciando servidor Dash...", origen="APP")
-    app.run_server(debug=True, host='0.0.0.0')
+    app.run_server(debug=True, host='0.0.0.0', port=8050)
