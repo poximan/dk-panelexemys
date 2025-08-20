@@ -16,6 +16,7 @@ WORKDIR /app
 
 # Copia el archivo de dependencias.txt a la raíz del WORKDIR (/app).
 COPY dependencias.txt ./
+
 # Instala las dependencias de Python en el entorno global del contenedor.
 # Usamos --no-cache-dir para ahorrar espacio.
 RUN pip install --no-cache-dir -r ./dependencias.txt

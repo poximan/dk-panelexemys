@@ -1,3 +1,6 @@
+# entorno de ejecucion
+venv/
+
 # compilador bytecode
 __pycache__/
 
